@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="mainPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Label id="lab" alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="325.0" prefWidth="481.0" text="&#10;" textFill="#0d0d0d" wrapText="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="20.05" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="0.8293209671974182" blue="0.26851850748062134" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+   </center>
+   <bottom>
+      <Label prefHeight="47.0" prefWidth="491.0" style="-fx-font-weight: bold;" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </bottom>
+   <top>
+      <Label text="This is the title for the last pane" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

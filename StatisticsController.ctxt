@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StatisticsController
+comment1.params=
+comment1.target=StatisticsController()
+comment2.params=date1\ date2
+comment2.target=void\ dateUpdate(java.lang.String,\ java.lang.String)
+comment3.params=event
+comment3.target=void\ prevDataBtn(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ nextDataBtn(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ switchPanes()
+numComments=6

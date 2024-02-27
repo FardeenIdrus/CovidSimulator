@@ -1,0 +1,23 @@
+.anchor {
+    -fx-background-image:url('welcome-background.png');
+    -fx-background-size: 50% 50%; 
+}
+
+.datePicker1:fromDateValid {
+    -fx-background-color: green;
+}
+
+.datePicker1:fromDateInvalid {
+    -fx-background-color: red;
+}
+
+.datePicker2:toDateValid{
+    -fx-background-color: green;
+}
+.datePicker2:toDateInvalid {
+    -fx-background-color: red;
+}
+
+
+
+

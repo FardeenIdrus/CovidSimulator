@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Polygon?>
+
+<StackPane id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="hexagonPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Polygon id="Barnet" fill="#ffac1f" layoutX="184.0" layoutY="122.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Haringey" fill="#ffac1f" layoutX="248.0" layoutY="122.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Waltham Forest" fill="#ffac1f" layoutX="310.0" layoutY="122.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Enfield" fill="#ffac1f" layoutX="279.0" layoutY="67.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Harrow" fill="#ffac1f" layoutX="89.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Brent" fill="#ffac1f" layoutX="152.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Camden" fill="#ffac1f" layoutX="215.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Islington" fill="#ffac1f" layoutX="279.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Hackney" fill="#ffac1f" layoutX="342.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Redbridge" fill="#ffac1f" layoutX="405.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Havering" fill="#ffac1f" layoutX="468.0" layoutY="176.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Hillingdon" fill="#ffac1f" layoutX="58.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Ealing" fill="#ffac1f" layoutX="121.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Kensington And Chelsea" fill="#ffac1f" layoutX="184.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Westminster" fill="#ffac1f" layoutX="247.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Tower Hamlets" fill="#ffac1f" layoutX="310.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Newham" fill="#ffac1f" layoutX="373.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Barking And Dagenham" fill="#ffac1f" layoutX="436.0" layoutY="230.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Hounslow" fill="#ffac1f" layoutX="89.0" layoutY="285.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Hammersmith And Fulham" fill="#ffac1f" layoutX="152.0" layoutY="285.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Wandsworth" fill="#ffac1f" layoutX="215.0" layoutY="285.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="City Of London" fill="#ffac1f" layoutX="279.0" layoutY="285.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Greenwich" fill="#ffac1f" layoutX="342.0" layoutY="285.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Bexley" fill="#ffac1f" layoutX="405.0" layoutY="285.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Richmond Upon Thames" fill="#ffac1f" layoutX="121.0" layoutY="340.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Merton" fill="#ffac1f" layoutX="184.0" layoutY="340.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Lambeth" fill="#ffac1f" layoutX="247.0" layoutY="340.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Southwark" fill="#ffac1f" layoutX="310.0" layoutY="340.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Lewisham" fill="#ffac1f" layoutX="373.0" layoutY="340.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Kingston Upon Thames" fill="#ffac1f" layoutX="152.0" layoutY="395.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Sutton" fill="#ffac1f" layoutX="216.0" layoutY="395.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Croydon" fill="#ffac1f" layoutX="279.0" layoutY="395.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polygon id="Bromley" fill="#ffac1f" layoutX="342.0" layoutY="395.0" onMouseClicked="#polygonClick" points="66.75, -13.5, 66.75, -47.75, 37.25, -65.0, 7.0, -47.75, 7.0, -13.5, 37.25, 3.75" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="396.0" fitWidth="476.0" preserveRatio="true" StackPane.alignment="CENTER">
+         <image>
+            <Image url="@map.png" />
+         </image>
+      </ImageView>
+   </children>
+</StackPane>

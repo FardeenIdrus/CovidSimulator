@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="mainPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Label id="lab" alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="325.0" prefWidth="481.0" text="Welcome to the COVID-19 statistics viewer. &#10;&#10;Here are some pointers to get you started:&#10;&#10;Choose a valid date from which and&#10;to which you'd like to view the statistics for.&#10;&#10;Use the arrows in the bottom corners of your screen to navigate between different parts of the viewer.&#10;&#10;The data spans from 15/02/2020 to 09/02/2023." textFill="#0d0d0d" wrapText="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="20.05" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="0.8293209671974182" blue="0.26851850748062134" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+   </center>
+   <bottom>
+      <Label prefHeight="47.0" prefWidth="491.0" style="-fx-font-weight: bold;" text="*all statistics are sourced via the UK government and Google's mobility report." BorderPane.alignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </bottom>
+</BorderPane>

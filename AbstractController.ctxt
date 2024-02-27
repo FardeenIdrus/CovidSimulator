@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=AbstractController
+comment1.params=filename
+comment1.target=AbstractController(java.lang.String)
+comment2.params=url\ resourceBundle
+comment2.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment3.params=
+comment3.target=CovidDataLoader\ getDataLoader()
+comment4.params=
+comment4.target=javafx.scene.layout.Pane\ getView()
+comment5.params=date1\ date2
+comment5.target=void\ dateUpdate(java.lang.String,\ java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getDateFrom()
+comment7.params=
+comment7.target=java.lang.String\ getDateTo()
+numComments=8
